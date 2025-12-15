@@ -1,0 +1,123 @@
+*, *::before, *::after {
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'ChronoType', sans-serif;
+}
+.ChronoType{
+    font-family: 'ChronoType', sans-serif;
+}
+
+section {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background: none;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+    font-family: 'ChronoType', sans-serif;
+    color: #eee;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #ffbffe;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+
+section input[type="text"],
+section textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 12px;
+    background: none;
+    color: #ffbffe;
+    font-size: 1rem;
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.4);
+    transition: all 0.3s ease;
+}
+
+section input[type="text"]:focus,
+section textarea:focus {
+    outline: none;
+    box-shadow: 0 0 8px #ffbffe;
+    background: #3a3a4f;
+}
+
+section a.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #ffbffe;
+    color: #1e1e2f;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+section a.link {
+    all: unset;
+    color: #ffbffe;
+}
+
+section a.link:hover {
+    all: unset;
+    color: #fff3ff;
+    cursor:pointer;
+}
+
+section a.btn:hover {
+    background: #ffe3ff;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+section > div {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    margin-bottom: 25px;
+    transition: all 0.3s ease;
+}
+
+section > div:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+section textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+section textarea::-webkit-scrollbar {
+    width: 8px;
+}
+
+section textarea::-webkit-scrollbar-thumb {
+    background: #ffd700;
+    border-radius: 5px;
+}
+
+section textarea::-webkit-scrollbar-track {
+    background: #2c2c3e;
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 20px;
+        margin: 20px;
+    }
+    section h2 {
+        font-size: 1.5rem;
+    }
+}
