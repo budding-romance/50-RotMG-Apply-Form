@@ -1,0 +1,56 @@
+body{
+    overflow-x:hidden;
+}
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+.bnr {
+    font-family: monospace !important;
+}
+.fixed-banner pre {
+    overflow: hidden;
+    font-family: monospace !important;
+    animation: pulse 4s ease-in-out infinite;
+}
+.fixed-banner {
+    overflow: hidden;
+    font-family: monospace !important;
+    margin-top: 100px;
+    position: sticky;
+    top: 0;
+    background: none;
+    z-index: 10;
+    padding: 10px 0;
+    text-align: center;
+}
+pre {
+    font-size: 5px;
+    margin: 0;
+}
+.footer {
+    animation: float 5s ease-in-out infinite;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: inline;
+    z-index:1999;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
+    background: none;
+}
+.footer h1 {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 2.5rem;
+}
