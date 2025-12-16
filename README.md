@@ -1,4 +1,5 @@
 Change $yourWebhookLink in sendApply.php to your webhook url.
+
 You also need simple_html_dom.
 
 TODO:
@@ -9,7 +10,17 @@ TODO:
 - Maybe fix the mess in sendApply.php as $player_info is not really needed.
 
 if you have any questions:
+
 discord.gg/creatures
+
 @buddingromance on Discord
+
 budding@fifty.website
+
 fifty.website
+
+[!] If you wanna use it for your own guild, please credit me.
+
+Leave the footer icon as it is. You can change the url and other stuff.
+
+Also credit me on ur website x)
